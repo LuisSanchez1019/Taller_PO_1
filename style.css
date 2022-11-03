@@ -1,6 +1,36 @@
+
+
+body{
+    font-size: 14px;
+    background: linear-gradient(blue, rgb(231, 225, 225));
+    height: 1000px;
+    font-family: 'Poppins', sans-serif;
+}
 input{
     display: block;
 }
+form{
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+}
 input[type="submit"]{
+    border-radius: 1rem;
     margin-top: 10px;
+    cursor: pointer;
+}
+#res{
+
+    left: 10px;
+    text-align: center;
+    color: rgb(255, 1, 1);
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+}
+.label{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
 }

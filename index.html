@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="sp">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio 2 </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
-<body>
-    <h3>1.Este programa muestra el signo zodiacal de una persona. 
-        Para ello el usuario debe introducir únicamente el día y 
-        el mes de nacimiento y el programa determinará inmediatamente 
-        el signo zodiacal de la persona.</h3>
-    <form id="Formulario" action="api.php" method="post">
-        <label>Ingrese el dia de nacimiento</label>
-        <input type="text" name="dia">
-        <label>Ingrese el mes de nacimiento</label>
-        <input type="text" name="mes">
-        <input type="submit" value="Zodiaco">
-    </form>
-    <pre id="res">
 
+<body>
+    <h1>De la galería de productos, el usuario introducirá el código y el número de unidades del producto que desea
+        comprar, El programa determinará el total a pagar, como una factura</h1>
+    <form id="Formulario" action="api.php" method="post">
+        <label>Ingrese el codigo del producto : </label>
+        <input type="number" name="codigo">
+        <label>Numeros de unidades:</label>
+        <input type="number" name="unidades">
+        <input type="submit" value="Total a pagar ">
+    </form>
+    <pre id="resultado">
+            El Total a pgar es: 
     </pre>
 </body>
+
 </html>
